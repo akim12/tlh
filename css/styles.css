@@ -1,0 +1,52 @@
+.title-border {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    color: #9e9e9e;
+    font-weight:lighter;
+}
+.title-border:before {
+    background: #a2a2a2;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.title-border span {
+    background: red none repeat scroll 0 0;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.offre{
+	width: 450px;
+	height: 700px;
+	float: left; margin-bottom: 20px;
+	clear: both;
+}
+.fille-garcon{
+	/*float: left;
+	background: salmon;
+	border:1px solid red;*/
+	/*height: 500px;*/
+	min-width: 100px;
+	overflow: hidden;
+}
+		.rayon-fille{background-color: lightyellow; width: 455px; height: 340px;float: left; margin: 0 10px 0 10px;}
+		.rayon-garcon{background-color: lightblue; width: 455px; height: 340px;float: left; margin: 0 0 0 10px;}
+
+.boutiques{
+	background-color: salmon; height: 200px;
+	
+}
+
+
+
